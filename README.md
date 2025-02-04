@@ -12,8 +12,17 @@
   📌Views/Books/ → Contains Razor Views for listing, creating, and editing books.
   
 4️⃣ Sample Screenshots<br>
-Main Page (Home)<br>
+### Main Page (Home)
+![Home Page Screenshot](images/home-page.png)
 
-List of Books<br>
-Create Book Page<br>
-Edit Book Page
+### List of Books
+![Books List](images/books-list.png)
+
+### Create Book Page
+![Create Book Screenshot](images/book-create.png)
+
+### Details of Book
+![Edit Book Screenshot](images/book-details.png)
+
+### Delete a Book
+![Edit Book Screenshot](images/book-delete.png)
