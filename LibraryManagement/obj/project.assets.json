@@ -8035,11 +8035,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alper\\OneDrive\\Masaüstü\\LibraryManagement_BootCamp_Project\\LibraryManagement\\LibraryManagement.csproj",
+      "projectUniqueName": "C:\\Users\\alper\\OneDrive\\Masaüstü\\BootCampProject_LibraryManagement\\LibraryManagement\\LibraryManagement.csproj",
       "projectName": "LibraryManagement",
-      "projectPath": "C:\\Users\\alper\\OneDrive\\Masaüstü\\LibraryManagement_BootCamp_Project\\LibraryManagement\\LibraryManagement.csproj",
+      "projectPath": "C:\\Users\\alper\\OneDrive\\Masaüstü\\BootCampProject_LibraryManagement\\LibraryManagement\\LibraryManagement.csproj",
       "packagesPath": "C:\\Users\\alper\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alper\\OneDrive\\Masaüstü\\LibraryManagement_BootCamp_Project\\LibraryManagement\\obj\\",
+      "outputPath": "C:\\Users\\alper\\OneDrive\\Masaüstü\\BootCampProject_LibraryManagement\\LibraryManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alper\\AppData\\Roaming\\NuGet\\NuGet.Config"
