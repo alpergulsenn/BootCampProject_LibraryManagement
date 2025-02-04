@@ -1,0 +1,107 @@
+/* 1) Import a pixel-art style font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* 2) Define color variables */
+:root {
+    --bg-color: #dcedc1;      /* Light greenish background color */
+    --container-color: #f9ffe6;  /* Inner container background, cards, etc. */
+    --accent-color: #88ba98;   /* Accent color for borders, buttons, etc. */
+    --text-color: #333;        /* Main text color */
+    --heading-color: #2a3b34;  /* Heading text color (darker) */
+}
+
+/* 3) Global styling for body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Press Start 2P', sans-serif; /* Pixel-art style font */
+    font-size: 13px; /* Adjust if the font seems too small, e.g., 16px */
+    
+}
+
+/* 4) Override some Bootstrap defaults for navbar */
+.navbar, .navbar-nav .nav-link {
+    font-size: 20px; /* Slightly smaller font in the navbar */
+    color: #fff; /* White text color */
+    background-color: #3D6B4D;;  ; /* Light background color */
+    
+}
+.navbar{
+    margin-bottom: 20px; /* Add some space below the navbar */
+}
+
+/* Apply a container-like style with a retro/pixel feel */
+.container, .card, .table {
+    background-color: var(--container-color) !important;
+    border: 3px solid var(--accent-color);
+    border-radius: 0; /* Square corners for a pixel-like look */
+}
+
+/* 5) Button styles */
+.btn {
+    border-radius: 0; /* Remove default rounded corners */
+    border: 2px solid var(--accent-color);
+    background-color: transparent;
+    color: var(--accent-color);
+    transition: 0.2s;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--accent-color);
+    color: #fff;
+}
+
+/* 6) Headings (H1, H2, etc.) */
+h1, h2, h3 {
+    color: var(--heading-color);
+}
+
+/* 7) Pixel-like frame for sections or wrappers */
+.pixel-frame {
+    border: 4px solid var(--accent-color);
+    padding: 10px;
+    box-shadow: 4px 4px 0 #333; /* Slight "pixel" shadow effect */
+}
+
+/* 8) Form controls styling (for book create/edit pages) */
+.form-control {
+    border: 2px solid var(--accent-color);
+    border-radius: 0;
+    background-color: #fff;
+    font-size: 14px;
+}
+.pixel-button {
+  display: inline-block;
+  border: 3px solid #333;
+  background: #55c1e2;
+  color: #333;
+  padding: 8px 12px;
+  margin: 5px;
+  font-family: 'Press Start 2P', sans-serif;
+  box-shadow: 4px 4px 0 #333;
+  transition: 0.2s;
+}
+
+.pixel-button:hover {
+  box-shadow: 2px 2px 0 #333;
+  background: #55c1e2;
+  color: #fff;
+  margin-left: 7px;
+  margin-top: 3px;
+}
+
+.btn-delete {
+    background-color: #ff0000;     /* Kırmızı */
+    border-color: #ff0000;
+    color: #fff;
+}
+
+.btn-delete:hover {
+    background-color: #960000;     /* Daha koyu kırmızı */
+    border-color: #cc0000;
+    color: #fff;
+}
+
